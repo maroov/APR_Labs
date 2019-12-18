@@ -1,0 +1,1 @@
+octave gaussian-exp.m ../MNIST\ Database/train-images-idx3-ubyte.mat.gz ../MNIST\ Database/train-labels-idx1-ubyte.mat.gz ../MNIST\ Database/t10k-images-idx3-ubyte.mat.gz ../MNIST\ Database/t10k-labels-idx1-ubyte.mat.gz [1] > res_gaussian.txt

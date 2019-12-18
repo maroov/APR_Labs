@@ -1,0 +1,43 @@
+SVM
+
+LINEAL
+------------------
+No converge
+
+POLINOMICO GRADO 2
+------------------
+
+
+POLINOMICO GRADO 3
+------------------
+Kernel = 1      C = 0.001   Error: 2.09
+Accuracy = 97.91% (9791/10000) (classification)
+
+Kernel = 1      C = 0.1 	Error: 2.09
+Accuracy = 97.91% (9791/10000) (classification)
+
+Kernel = 1      C = 1    	Error: 2.09
+Accuracy = 97.91% (9791/10000) (classification)
+
+Kernel = 1      C = 10   	Error: 2.09
+Accuracy = 97.91% (9791/10000) (classification)
+
+Kernel = 1      C = 1000   	Error: 2.09
+Accuracy = 97.91% (9791/10000) (classification)
+
+POLINOMICO GRADO 5
+------------------
+
+
+POLINOMICO GRADO 9
+------------------
+
+
+RADIAL
+------------------
+
+
+SIGMOIDE
+------------------
+
+
