@@ -1,49 +1,46 @@
-SVM
+SVM (La C es irrelevante de 0.001 a 1000)
 
-LINEAL
+POLINOMICO GRADO 1
 ------------------
-No converge
+Kernel = 1      C = 0.001        Error: 5.35
+Classifying...Accuracy = 94.65% (9465/10000) (classification)
 
 POLINOMICO GRADO 2
 ------------------
 Kernel = 1      C = 0.001   Error: 1.95
 Classifying...Accuracy = 98.05% (9805/10000) (classification)
 
-Kernel = 1      C = 0.1     Error: 1.95
-Classifying...Accuracy = 98.05% (9805/10000) (classification)
-
-
-
 POLINOMICO GRADO 3
 ------------------
 Kernel = 1      C = 0.001   Error: 2.09
 Accuracy = 97.91% (9791/10000) (classification)
 
-Kernel = 1      C = 0.1 	Error: 2.09
-Accuracy = 97.91% (9791/10000) (classification)
-
-Kernel = 1      C = 1    	Error: 2.09
-Accuracy = 97.91% (9791/10000) (classification)
-
-Kernel = 1      C = 10   	Error: 2.09
-Accuracy = 97.91% (9791/10000) (classification)
-
-Kernel = 1      C = 1000   	Error: 2.09
-Accuracy = 97.91% (9791/10000) (classification)
+POLINOMICO GRADO 4
+------------------
+Kernel = 1      C = 0.001       Error: 2.63
+Classifying...Accuracy = 97.37% (9737/10000) (classification)
 
 POLINOMICO GRADO 5
 ------------------
+Kernel = 1      C = 0.001        Error: 3.35
+Classifying...Accuracy = 96.65% (9665/10000) (classification)
 
+POLINOMICO GRADO 6
+------------------
+Kernel = 1      C = 0.001        Error: 4.12
+Classifying...Accuracy = 95.88% (9588/10000) (classification)
+
+POLINOMICO GRADO 7
+------------------
+Kernel = 1      C = 0.001        Error: 5.27
+Classifying...Accuracy = 94.73% (9473/10000) (classification)
+
+POLINOMICO GRADO 8
+------------------
+Kernel = 1      C = 0.001        Error: 6.36
+Classifying...Accuracy = 93.64% (9364/10000) (classification)
 
 POLINOMICO GRADO 9
 ------------------
-
-
-RADIAL
-------------------
-
-
-SIGMOIDE
-------------------
-
-
+Kernel = 1      C = 0.001        Error: 7.42
+Classifying...Accuracy = 92.58% (9258/10000) (classification)

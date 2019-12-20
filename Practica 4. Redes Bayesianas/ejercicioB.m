@@ -42,8 +42,8 @@ motor = jtree_inf_engine(redB);
 [motor, logVerosim] = enter_evidence(motor, evidencia);
 m = marginal_nodes(motor, C, 1);
 disp(" ");
-disp("P(C | R = n, D = s)");
-m.T
+disp("P(!C | R = n, D = s)");
+m.T(1)
 
 %% B.3
 disp("Ejercicio B.3");
@@ -54,7 +54,7 @@ evidencia{C} = 2;
 disp("Explicacion mas probable de cancer:");
 explMaxProb
 logVerosim
-probabilidad = 2^logVerosim
+probabilidad = exp(logVerosim)
 % 1 2 2 3 2
-% Polucion no, Fumador si, Rayos X positivo, Cancer positivo, Disnea si
+% Polucion baja, Fumador si, Cancer positivo, Rayos X positivo, Disnea si
 

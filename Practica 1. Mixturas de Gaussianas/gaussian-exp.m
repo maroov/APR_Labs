@@ -41,7 +41,9 @@ for j = 1 : 1 : columns(epsilons)
   val = [];
 endfor
 
-#0.1,0.2,0.5,0.9,0.95,0.99,1
+# 4.1: cuando epsilon = 1 (ultimo)
+# 4.2: resto de valores
+# 0.001,0.01,0.1,0.2,0.5,0.9,0.95,0.99,1
 printf(columns(epsilons))
 for i=1:columns(epsilons)
   printf("%f\t%f\n",epsilons(i),mat(:,i)');

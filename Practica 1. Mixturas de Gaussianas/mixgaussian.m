@@ -67,17 +67,17 @@ do
     
     % PASO M
     % Ecuacion 10
-    pkGc = (1/Nc)*sumzk;
+    pkGc{ic} = (1/Nc)*sum(zk);
     
     % Ecuacion 11
-    size(1/sumzk)
-    size(zk)
-    size(Xc)
-    mu = (1/sumzk)*sum(zk*Xc);
+    mu{ic} = (1/sum(zk)).*(zk'*Xc);
     
     % Ecuacion 12
-    sigma = (1/sumzk)*sum(zk*(xn-mu)*(xn-mu)');
-
+    sigma{ic,1:K} = (1./sum(zk)).*(zk' .* ((Xc .- mu{ic}) * (Xc .- mu{ic})'));
+    size(sigma{ic,1:K})
+    
+    disp("=====")
+    disp("=====")
   end
   % Likelihood divided by the number of training samples
   L=L/N;
@@ -129,6 +129,7 @@ function [zk] = compute_zk(ic,k,pkGc,mu,sigma,X)
   lin=X*(mu{ic}(:,k)'*pinv(sigma{ic,k}))';
   qua=-0.5*sum((X*pinv(sigma{ic,k})).*X,2);
   zk=qua+lin+cons;
+  size(zk)
 end
 
 % Robust computation of the logarithm of the determinant of the covariance matrix X

@@ -10,9 +10,9 @@ printf("Finished loading.\n");
 
 kernel = 1; #[0 1 2 3]
 
-C = 1; #[0.001 0.1 1 10 1000]
+C = 0.001; #[0.001 0.1 1 10 1000]
 
-degree = 2; #[ 1? 2 3 4 5 6 7 8 9 ]
+degree = 1; #[ 1? 2 3 4 5 6 7 8 9 ]
 
 # Entrenamiento
 printf("\nTraining...");
