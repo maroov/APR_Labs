@@ -18,8 +18,8 @@ printf( "Finished loading files.\n" );
 addpath("./nnet");
 
 k = 30;
-numNeuronsHiddenLayer = 40;
-perc = 0.5;
+numNeuronsHiddenLayer = 20;
+perc = 0.8;
 
 printf( "Starting PCA...\n" );
 # Reduce dimensionality
@@ -42,10 +42,11 @@ numValidation = numSamplesTraining - numTraining;
 rand( "seed", 23 );
 indices = randperm( numSamplesTraining );
 
+# he añadido :, a los outputs
 samplesTrainInput = trainInput( :, indices( 1 : numTraining ) );
-samplesTrainOutput = trainOutput( indices( 1 : numTraining ) );
+samplesTrainOutput = trainOutput( :, indices( 1 : numTraining ) );
 samplesValidationInput = trainInput( :, indices( numTraining + 1 : numSamplesTraining ) );
-samplesValidationOutput = trainOutput( indices( numTraining + 1 : numSamplesTraining ) );
+samplesValidationOutput = trainOutput( :, indices( numTraining + 1 : numSamplesTraining ) );
 numClasses = max( columns( unique( trainOutput ) ), columns( unique( testOutput ) ) );
 
 # Class 1 = [ 1, 0, ..., 0 ]
@@ -96,17 +97,18 @@ nn = train( nnConfig, trainInputNormalized, oneHotTraining, [], [], VV );
 testInputNormalized = trastd( testInput, meanInput, stdInput );
 output = sim( nn, testInputNormalized );
 
-
-maximum = max( output );
-results = zeros();
+[maximum, chosenClasses] = max( output );
+error = sum(chosenClasses != testOutput) / columns(testOutput);
+#maximum = max( output );
+#results = zeros();
 # For each class, check if the maximum probability of the samples
 # to be classified in a class coincides with the class probability
-for class = 1 : numClasses
-    classifiedIndices = find( output( class, : ) == maximum );
-    results( classifiedIndices ) = class;
-endfor
+#for class = 1 : numClasses
+#    classifiedIndices = find( output( class, : ) == maximum );
+#    results( classifiedIndices ) = class;
+#endfor
 
-error = sum( results != testOutput ) / columns( testOutput ) * 100;
+#error = sum( results != testOutput ) / columns( testOutput ) * 100;
 
 # Display
 

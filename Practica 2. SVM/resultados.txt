@@ -6,6 +6,9 @@ No converge
 
 POLINOMICO GRADO 2
 ------------------
+Kernel = 1      C = 0.001   Error: 1.95
+Classifying...Accuracy = 98.05% (9805/10000) (classification)
+
 
 
 POLINOMICO GRADO 3

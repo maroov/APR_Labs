@@ -19,13 +19,13 @@ resNotSep = svmtrain( trNotSepLabels, trNotSep, "-t 0 -c 1000" );
 
 # Multiplicadores de Lagrange
 multsSep = resSep.sv_coef
-multsNotSep = resNotSep.sv_coef;
-
+multsNotSep = resNotSep.sv_coef
 
 # Índices de los vectores soporte
 indSep = resSep.sv_indices;
+trSep(indSep, :)
 indNotSep = resNotSep.sv_indices;
-
+trNotSep(indNotSep, :)
 
 # Class 1 -> 1
 # Class 2 -> -1
