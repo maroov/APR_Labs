@@ -67,14 +67,18 @@ do
     
     % PASO M
     % Ecuacion 10
-    pkGc{ic} = (1/Nc)*sum(zk);
-    
+    #pkGc{ic}(1:K) = sum(zk) / Nc;
+    pkGc{ic} = sum(zk) / Nc;
+
     % Ecuacion 11
-    mu{ic} = (1/sum(zk)).*(zk'*Xc);
+    mu{ic} = sum(zk'*Xc)' ./ sum(zk);
+    size(mu{ic})
     
     % Ecuacion 12
-    sigma{ic,1:K} = (1./sum(zk)).*(zk' .* ((Xc .- mu{ic}) * (Xc .- mu{ic})'));
-    size(sigma{ic,1:K})
+    size(zk')
+    % sigma{ic,1:K} = (zk' .* ((Xc .- mu{ic}) * (Xc .- mu{ic}'))) ./ sum(zk);
+    sigma(ic,1:K) = sum(zk' * ((Xc .- mu{ic}) * (Xc .- mu{ic})')) ./ sum(zk);
+    size(sigma(ic,1:K))
     
     disp("=====")
     disp("=====")
@@ -129,7 +133,7 @@ function [zk] = compute_zk(ic,k,pkGc,mu,sigma,X)
   lin=X*(mu{ic}(:,k)'*pinv(sigma{ic,k}))';
   qua=-0.5*sum((X*pinv(sigma{ic,k})).*X,2);
   zk=qua+lin+cons;
-  size(zk)
+  #size(zk)
 end
 
 % Robust computation of the logarithm of the determinant of the covariance matrix X

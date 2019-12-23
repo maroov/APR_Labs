@@ -12,6 +12,7 @@ telabs = arg_list{ 4 };
 K = str2num(arg_list{ 5 });
 epsilons = str2num(arg_list{ 6 });
 
+disp("Cargando datos...")
 load( trdata );
 load( trlabs );
 load( tedata );
@@ -20,6 +21,7 @@ load( telabs );
 #[ avg reducedMat ] = pca( X );
 load avg.mat
 load reducedMat.mat
+disp("Datos cargados.")
 
 #size( reducedMat );
 
@@ -30,10 +32,11 @@ min_error = 100;
 mat = zeros(10,columns(epsilons));
 
 for j = 1 : 1 : columns(epsilons)
-  j
+  #j
   for i = 10 : 10 : 100
     reducedMatTraining = (reducedMat( :, 1:i )' * (X - avg)')';
     reducedMatTesting  = (reducedMat( :, 1:i )' * (Y - avg)')';
+    printf("Ejecutando mixgaussian con %d dimensiones y alfa %.1f\n", i, epsilons(j));
     error_gaussian = mixgaussian( reducedMatTraining, xl, reducedMatTesting, yl, K, epsilons(j) ); # cambiar el 1 por parametros
     if( min_error > error_gaussian )
       min_error = error_gaussian;
@@ -42,11 +45,11 @@ for j = 1 : 1 : columns(epsilons)
     val = [ val; error_gaussian ];
   endfor
   mat(:,j) = val;
-  val = []
+  val = [];
 endfor
 
 #0.1,0.2,0.5,0.9,0.95,0.99,1
-printf(columns(epsilons))
+#printf(columns(epsilons))
 for i=1:columns(epsilons)
   printf("%f\t%f\n",epsilons(i),mat(:,i)');
 endfor
