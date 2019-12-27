@@ -26,9 +26,11 @@ printf( "PCA ended.\n" );
 trainInput = W(:, 1:k)' * (X - average)';
 # trainInput = trainInput';
 trainOutput = xl';
+trainOutput = trainOutput +1;
 testInput = W(:, 1:k)' * (Y - average)';
 # testInput = testInput';
 testOutput = yl';
+testOutput = testOutput + 1;
 
 
 [ numFeatures, numSamplesTraining ] = size( trainInput );
