@@ -34,6 +34,7 @@ mat = zeros(10,columns(epsilons));
 for j = 1 : 1 : columns(epsilons)
   for i = 10 : 10 : 100
     for k = 1 : 1 : columns(K)
+      printf("%d dimensiones PCA, K = %d y alfa = %.1f\n", i, K(k), epsilons(j));
       reducedMatTraining = (reducedMat( :, 1:i )' * (X - avg)')';
       reducedMatTesting  = (reducedMat( :, 1:i )' * (Y - avg)')';
       error_gaussian = mixgaussian( reducedMatTraining, xl, reducedMatTesting, yl, K(k), epsilons(j) );
@@ -42,7 +43,7 @@ for j = 1 : 1 : columns(epsilons)
         min_error_dimensions = i;
       endif
       % val = [ val; error_gaussian ];
-      printf("%d dimensiones PCA, K = %d y alfa = %.1f\n", i, K(k), epsilons(j));
+      
       printf("Error: %.2f\n", error_gaussian);
     endfor
   endfor

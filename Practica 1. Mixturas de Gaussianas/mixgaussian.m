@@ -39,8 +39,8 @@ end
 epsilon = 1e-4;
 L=-inf;
 it=0;
-printf(" It          oL           L trerr teerr\n");
-printf("--- ----------- ----------- ----- -----\n");
+#printf(" It          oL           L trerr teerr\n");
+#printf("--- ----------- ----------- ----- -----\n");
 do 
   oL=L;L=0;
 
@@ -119,7 +119,7 @@ do
   [~,idy]=max(gte');
   teerr=mean(classes(idy)!=yl)*100;
   it=it+1;
-  printf("%3d %11.5f %11.5f %5.2f %5.2f\n",it,oL,L,trerr,teerr);
+  #printf("%3d %11.5f %11.5f %5.2f %5.2f\n",it,oL,L,trerr,teerr);
   
 until ((L-oL)/abs(oL) < epsilon)
 end
