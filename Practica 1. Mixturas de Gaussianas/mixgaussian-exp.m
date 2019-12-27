@@ -36,23 +36,24 @@ for j = 1 : 1 : columns(epsilons)
     for k = 1 : 1 : columns(K)
       reducedMatTraining = (reducedMat( :, 1:i )' * (X - avg)')';
       reducedMatTesting  = (reducedMat( :, 1:i )' * (Y - avg)')';
-      printf("Ejecutando mixgaussian con %d dimensiones y alfa %.1f\n", i, epsilons(j));
       error_gaussian = mixgaussian( reducedMatTraining, xl, reducedMatTesting, yl, K(k), epsilons(j) );
       if( min_error > error_gaussian )
         min_error = error_gaussian;
         min_error_dimensions = i;
       endif
-      val = [ val; error_gaussian ];
+      % val = [ val; error_gaussian ];
+      printf("%d dimensiones PCA, K = %d y alfa = %.1f\n", i, K(k), epsilons(j));
+      printf("Error: %.2f\n", error_gaussian);
     endfor
   endfor
-  mat(:,j) = val;
-  val = [];
+  % mat(:,j) = val;
+  % val = [];
 endfor
 
 #0.1,0.2,0.5,0.9,0.95,0.99,1
 #printf(columns(epsilons))
-for i=1:columns(epsilons)
-  printf("%f\t%f\n",epsilons(i),mat(:,i)');
-endfor
+% for i=1:columns(epsilons)
+%   printf("%f\t%f\n",epsilons(i),mat(:,i)');
+% endfor
 
 #printf( "The dimensions of minimum error are %d\n\n, with error = %f\n\n", min_error_dimensions, min_error );
