@@ -32,17 +32,18 @@ min_error = 100;
 mat = zeros(10,columns(epsilons));
 
 for j = 1 : 1 : columns(epsilons)
-  #j
   for i = 10 : 10 : 100
-    reducedMatTraining = (reducedMat( :, 1:i )' * (X - avg)')';
-    reducedMatTesting  = (reducedMat( :, 1:i )' * (Y - avg)')';
-    printf("Ejecutando mixgaussian con %d dimensiones y alfa %.1f\n", i, epsilons(j));
-    error_gaussian = mixgaussian( reducedMatTraining, xl, reducedMatTesting, yl, K, epsilons(j) ); # cambiar el 1 por parametros
-    if( min_error > error_gaussian )
-      min_error = error_gaussian;
-      min_error_dimensions = i;
-    endif
-    val = [ val; error_gaussian ];
+    for k = 1 : 1 : columns(K)
+      reducedMatTraining = (reducedMat( :, 1:i )' * (X - avg)')';
+      reducedMatTesting  = (reducedMat( :, 1:i )' * (Y - avg)')';
+      printf("Ejecutando mixgaussian con %d dimensiones y alfa %.1f\n", i, epsilons(j));
+      error_gaussian = mixgaussian( reducedMatTraining, xl, reducedMatTesting, yl, K(k), epsilons(j) );
+      if( min_error > error_gaussian )
+        min_error = error_gaussian;
+        min_error_dimensions = i;
+      endif
+      val = [ val; error_gaussian ];
+    endfor
   endfor
   mat(:,j) = val;
   val = [];
