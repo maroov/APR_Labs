@@ -67,23 +67,22 @@ do
     
     % PASO M
     % Ecuacion 10
-    pkGc{ic} = (1/Nc)*sum(zk);
-    
+    pkGc{ic} = (1/Nc) * sum(zk);
+
     % Ecuacion 11
-    mu{ic} = (1/sum(zk)).*(Xc'*zk);
-    
+    mu{ic} = (Xc'*zk) ./ sum(zk);
+
     % Ecuacion 12
     for i = 1 : K
         covMat = (zk(:, k) .* (Xc - mu{ic}(:, k)'))';
         covMat = covMat * (Xc - mu{ic}(:, k)');
-        covMat = covMat .* (1/sum(zk(:, k)));
+        covMat = covMat / sum(zk(:, k));
         sigma(ic, k) = alpha * covMat + (1 - alpha) * eye( D );
         ## Remainders of our suffering
         ## sigma{ic,k} = (1/sum(zk(:, k))).*(zk(:, k) * ((Xc - mu{ic}(:, k)')' * (Xc - mu{ic}(:, k)')));
     endfor
+    % FIN DE PASO M
     
-    disp("=====")
-    disp("=====")
   end
   % Likelihood divided by the number of training samples
   L=L/N;
