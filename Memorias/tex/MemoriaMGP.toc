@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripción de la práctica}{3}% 
+\contentsline {section}{\numberline {2}Ejercicio A}{3}% 
+\contentsline {section}{\numberline {3}Ejercicio B}{3}% 
+\contentsline {section}{\numberline {4}Conclusiones}{3}% 

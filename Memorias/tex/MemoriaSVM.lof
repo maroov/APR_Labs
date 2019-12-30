@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Resultados para el conjunto linealmente separable}}{3}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Conjunto separable, C = 0.1}}{4}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Conjunto separable, C = 1}}{4}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Conjunto separable, C = 10}}{5}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Conjunto separable, C = 1000}}{5}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Resultados para el conjunto no linealmente separable}}{6}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Conjunto no separable, C = 0.1}}{6}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Conjunto no separable, C = 1}}{7}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Conjunto no separable, C = 10}}{7}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Conjunto no separable, C = 1000}}{8}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Error según el grado del kernel polinómico (MNIST)}}{8}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Error según el grado del kernel polinómico (MNIST)}}{9}% 

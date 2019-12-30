@@ -17,7 +17,7 @@ printf( "Finished loading files.\n" );
     
 addpath("./nnet");
 
-k = 40;
+k = 10;
 numNeuronsHiddenLayer = 20;
 perc = 0.8;
 
@@ -29,7 +29,7 @@ printf( "PCA ended.\n" );
 trainInput = W(:, 1:k)' * (X - average)';
 # trainInput = trainInput';
 trainOutput = xl';
-trainOutput = trainOutput +1;
+trainOutput = trainOutput + 1;
 testInput = W(:, 1:k)' * (Y - average)';
 # testInput = testInput';
 testOutput = yl';
@@ -78,9 +78,9 @@ VV.P = trastd( VV.P, meanInput, stdInput );
 minMaxValues = minmax( trainInputNormalized );
 
 # Row vector with the number of neurons for each layer
-numNeurons = [ numNeuronsHiddenLayer, numNeuronsHiddenLayer, numClasses ];
+numNeurons = [ numNeuronsHiddenLayer, numClasses ];
 # Activation functions for each layer
-activationFunctions = { "tansig", "tansig", "logsig" };
+activationFunctions = { "tansig", "logsig" };
 # Algorithm to train the neural network (backpropagation)
 trainingAlgorithm = "trainlm";
 # Some weird parameter

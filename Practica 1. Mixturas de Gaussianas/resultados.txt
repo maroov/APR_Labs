@@ -1,0 +1,500 @@
+10 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 10.97
+10 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 10.24
+10 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 9.14
+10 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 9.30
+10 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 9.30
+20 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 5.26
+20 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.80
+20 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.65
+20 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 4.12
+20 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 3.81
+30 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.51
+30 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 3.99
+30 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 3.58
+30 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 4.16
+30 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 3.68
+40 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.41
+40 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.09
+40 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 3.64
+40 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 3.58
+40 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 3.28
+50 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.34
+50 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 3.89
+50 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 3.60
+50 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 3.74
+50 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 3.43
+60 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.64
+60 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.08
+60 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.21
+60 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 4.19
+60 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 3.55
+70 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.59
+70 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.12
+70 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.31
+70 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 3.95
+70 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 4.16
+80 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.82
+80 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.37
+80 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.72
+80 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 4.34
+80 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 4.10
+90 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.87
+90 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 4.90
+90 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.83
+90 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 4.84
+90 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 4.55
+100 dimensiones PCA, K = 1 y alfa = 0.5
+Error: 4.98
+100 dimensiones PCA, K = 2 y alfa = 0.5
+Error: 5.42
+100 dimensiones PCA, K = 3 y alfa = 0.5
+Error: 4.98
+100 dimensiones PCA, K = 4 y alfa = 0.5
+Error: 5.34
+100 dimensiones PCA, K = 5 y alfa = 0.5
+Error: 4.90
+10 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 10.83
+10 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 10.08
+10 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 8.63
+10 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 8.81
+10 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 8.94
+20 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 5.07
+20 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 4.82
+20 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 4.38
+20 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.91
+20 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.38
+30 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.16
+30 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 3.87
+30 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 3.52
+30 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.52
+30 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.33
+40 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.05
+40 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 3.69
+40 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 3.26
+40 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.34
+40 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.00
+50 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 3.96
+50 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 3.64
+50 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 3.37
+50 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.24
+50 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.11
+60 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.24
+60 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 3.87
+60 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 3.70
+60 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.49
+60 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.14
+70 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.21
+70 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 4.07
+70 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 3.96
+70 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 3.66
+70 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.73
+80 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.43
+80 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 4.21
+80 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 4.10
+80 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 4.30
+80 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 3.97
+90 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.45
+90 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 4.82
+90 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 4.18
+90 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 4.54
+90 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 4.20
+100 dimensiones PCA, K = 1 y alfa = 0.7
+Error: 4.68
+100 dimensiones PCA, K = 2 y alfa = 0.7
+Error: 5.08
+100 dimensiones PCA, K = 3 y alfa = 0.7
+Error: 4.78
+100 dimensiones PCA, K = 4 y alfa = 0.7
+Error: 5.17
+100 dimensiones PCA, K = 5 y alfa = 0.7
+Error: 4.63
+10 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 10.82
+10 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 9.70
+10 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 8.62
+10 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 8.68
+10 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 8.04
+20 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.97
+20 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 4.63
+20 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.28
+20 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.67
+20 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.44
+30 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.99
+30 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.72
+30 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.30
+30 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.27
+30 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.95
+40 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.85
+40 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.34
+40 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 2.97
+40 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.00
+40 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.91
+50 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.70
+50 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.46
+50 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.23
+50 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.06
+50 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.85
+60 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.95
+60 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.64
+60 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.38
+60 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.39
+60 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.06
+70 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.92
+70 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.99
+70 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.65
+70 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.51
+70 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.37
+80 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.10
+80 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 4.10
+80 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.74
+80 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.85
+80 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.71
+90 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.12
+90 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 4.97
+90 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.06
+90 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 4.49
+90 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 4.21
+100 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.42
+100 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 5.18
+100 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.84
+100 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 5.54
+100 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 4.83
+10 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 10.82
+10 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 9.61
+10 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 8.54
+10 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 8.44
+10 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 7.86
+20 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.98
+20 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 4.60
+20 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.20
+20 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.61
+20 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.46
+30 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.99
+30 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.76
+30 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.15
+30 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.19
+30 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.82
+40 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.78
+40 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.22
+40 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 2.97
+40 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 2.90
+40 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.88
+50 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.70
+50 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.41
+50 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.26
+50 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 2.88
+50 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 2.84
+60 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.92
+60 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.67
+60 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.37
+60 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.25
+60 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.13
+70 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 3.88
+70 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 3.96
+70 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.60
+70 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.40
+70 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.36
+80 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.03
+80 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 4.08
+80 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 3.73
+80 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 3.77
+80 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 3.70
+90 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.07
+90 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 5.04
+90 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.04
+90 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 4.67
+90 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 4.17
+100 dimensiones PCA, K = 1 y alfa = 0.9
+Error: 4.34
+100 dimensiones PCA, K = 2 y alfa = 0.9
+Error: 5.34
+100 dimensiones PCA, K = 3 y alfa = 0.9
+Error: 4.82
+100 dimensiones PCA, K = 4 y alfa = 0.9
+Error: 5.62
+100 dimensiones PCA, K = 5 y alfa = 0.9
+Error: 4.93
+10 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 10.81
+10 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 9.69
+10 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 8.62
+10 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 8.33
+10 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 7.77
+20 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 4.98
+20 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 4.57
+20 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 4.19
+20 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 3.55
+20 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 3.27
+30 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.92
+30 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 3.75
+30 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.09
+30 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 3.14
+30 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 2.74
+40 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.77
+40 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 3.20
+40 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.06
+40 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 2.83
+40 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 2.77
+50 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.63
+50 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 3.34
+50 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.21
+50 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 2.74
+50 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 2.90
+60 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.90
+60 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 3.68
+60 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.29
+60 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 3.24
+60 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 3.08
+70 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.86
+70 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 3.96
+70 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.54
+70 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 3.34
+70 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 3.40
+80 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 3.99
+80 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 4.11
+80 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 3.76
+80 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 3.81
+80 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 3.61
+90 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 4.09
+90 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 5.03
+90 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 4.14
+90 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 4.74
+90 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 4.19
+100 dimensiones PCA, K = 1 y alfa = 1.0
+Error: 4.29
+100 dimensiones PCA, K = 2 y alfa = 1.0
+Error: 5.39
+100 dimensiones PCA, K = 3 y alfa = 1.0
+Error: 4.86
+100 dimensiones PCA, K = 4 y alfa = 1.0
+Error: 5.55
+100 dimensiones PCA, K = 5 y alfa = 1.0
+Error: 5.03

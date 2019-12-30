@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripción de la práctica}{3}% 
+\contentsline {section}{\numberline {2}Un pequeño ejercicio completo de aprendizaje}{3}% 
+\contentsline {section}{\numberline {3}Aplicación de SVM a MNIST}{8}% 
+\contentsline {section}{\numberline {4}Conclusiones}{9}% 

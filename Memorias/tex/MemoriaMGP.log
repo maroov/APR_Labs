@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  30 DEC 2019 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  30 DEC 2019 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MemoriaSVM.tex
-(./MemoriaSVM.tex
+**MemoriaMGP.tex
+(./MemoriaMGP.tex
 LaTeX2e <2019-10-01> patch level 1
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -50,7 +50,6 @@ File: babel.def 2019/10/15 3.35 Babel common definitions
 \es@quottoks=\toks14
 \es@quotdepth=\count90
 Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
@@ -235,27 +234,69 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
-) (./MemoriaSVM.aux
+)
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count108
+\lst@gtempboxa=\box29
+\lst@token=\toks23
+\lst@length=\count109
+\lst@currlwidth=\dimen124
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen127
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box30
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (./MemoriaMGP.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
-\openout1 = `MemoriaSVM.aux'.
+\openout1 = `MemoriaMGP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
 9.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -263,105 +304,105 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/it' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/sl' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/sc' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 59.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 29.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/it' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/it' tried instead on input line 29.
+(Font)              Font shape `T1/cmtt/m/it' tried instead on input line 59.
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sl' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/it' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/sl' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/sc' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/it' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/sl' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/sc' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/it' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/sl' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/sc' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/ui' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/ui' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/In' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 59.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen124
-\scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen125
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count116
+\scratchdimen=\dimen128
+\scratchbox=\box31
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen129
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -393,92 +434,29 @@ G,.JBIG2,.JB2,.eps]
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) [1
+))
+\c@lstlisting=\count122
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./MemoriaSVM.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./MemoriaMGP.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write3
-\openout3 = `MemoriaSVM.toc'.
+\openout3 = `MemoriaMGP.toc'.
 
- (./MemoriaSVM.lof
+ (./MemoriaMGP.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
-\openout4 = `MemoriaSVM.lof'.
+\openout4 = `MemoriaMGP.lof'.
 
 
-[2]
-<./images/2_Separables.png, id=14, 674.52pt x 337.26pt>
-File: ./images/2_Separables.png Graphic file (type png)
-<use ./images/2_Separables.png>
-Package pdftex.def Info: ./images/2_Separables.png  used on input line 52.
-(pdftex.def)             Requested size: 345.0pt x 172.50464pt.
-<./images/2_S_01.png, id=16, 1204.5pt x 903.375pt>
-File: ./images/2_S_01.png Graphic file (type png)
-<use ./images/2_S_01.png>
-Package pdftex.def Info: ./images/2_S_01.png  used on input line 55.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [3 <./images/2_Separables.png>]
-<./images/2_S_1.png, id=22, 1204.5pt x 903.375pt>
-File: ./images/2_S_1.png Graphic file (type png)
-<use ./images/2_S_1.png>
-Package pdftex.def Info: ./images/2_S_1.png  used on input line 58.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-<./images/2_S_10.png, id=23, 1204.5pt x 903.375pt>
-File: ./images/2_S_10.png Graphic file (type png)
-<use ./images/2_S_10.png>
-Package pdftex.def Info: ./images/2_S_10.png  used on input line 61.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [4 <./images/2_S_01.png (PNG copy)> <./images/2_S_1.png (PNG copy)>]
-<./images/2_S_1000.png, id=27, 1204.5pt x 903.375pt>
-File: ./images/2_S_1000.png Graphic file (type png)
-<use ./images/2_S_1000.png>
-Package pdftex.def Info: ./images/2_S_1000.png  used on input line 64.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [5 <./images/2_S_10.png (PNG copy)> <./images/2_S_1000.png (PNG copy)>]
-<./images/2_NoSeparables.png, id=31, 678.535pt x 421.575pt>
-File: ./images/2_NoSeparables.png Graphic file (type png)
-<use ./images/2_NoSeparables.png>
-Package pdftex.def Info: ./images/2_NoSeparables.png  used on input line 69.
-(pdftex.def)             Requested size: 345.0pt x 214.34425pt.
-<./images/2_NS_01.png, id=32, 1204.5pt x 903.375pt>
-File: ./images/2_NS_01.png Graphic file (type png)
-<use ./images/2_NS_01.png>
-Package pdftex.def Info: ./images/2_NS_01.png  used on input line 72.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-<./images/2_NS_1.png, id=33, 1204.5pt x 903.375pt>
-File: ./images/2_NS_1.png Graphic file (type png)
-<use ./images/2_NS_1.png>
-Package pdftex.def Info: ./images/2_NS_1.png  used on input line 75.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [6 <./images/2_NoSeparables.png> <./images/2_NS_01.png (PNG copy)>]
-<./images/2_NS_10.png, id=38, 1204.5pt x 903.375pt>
-File: ./images/2_NS_10.png Graphic file (type png)
-<use ./images/2_NS_10.png>
-Package pdftex.def Info: ./images/2_NS_10.png  used on input line 78.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-<./images/2_NS_1000.png, id=39, 1204.5pt x 903.375pt>
-File: ./images/2_NS_1000.png Graphic file (type png)
-<use ./images/2_NS_1000.png>
-Package pdftex.def Info: ./images/2_NS_1000.png  used on input line 81.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [7 <./images/2_NS_1.png (PNG copy)> <./images/2_NS_10.png (PNG copy)>]
-<./images/2_mnist.png, id=44, 191.71625pt x 201.75375pt>
-File: ./images/2_mnist.png Graphic file (type png)
-<use ./images/2_mnist.png>
-Package pdftex.def Info: ./images/2_mnist.png  used on input line 88.
-(pdftex.def)             Requested size: 100.37537pt x 105.63292pt.
-<./images/2_mnist_plot.png, id=45, 481.8pt x 494.84875pt>
-File: ./images/2_mnist_plot.png Graphic file (type png)
-<use ./images/2_mnist_plot.png>
-Package pdftex.def Info: ./images/2_mnist_plot.png  used on input line 91.
-(pdftex.def)             Requested size: 281.05103pt x 288.66609pt.
-
-[8 <./images/2_NS_1000.png (PNG copy)> <./images/2_mnist.png>] [9 <./images/2_m
-nist_plot.png>] (./MemoriaSVM.aux
+[2] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) [3]
+(./MemoriaMGP.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -487,26 +465,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4612 strings out of 492167
- 62350 string characters out of 6131557
- 148188 words of memory out of 5000000
- 8874 multiletter control sequences out of 15000+600000
- 19587 words of font info for 57 fonts, out of 8000000 for 9000
+ 7181 strings out of 492167
+ 93322 string characters out of 6131557
+ 426598 words of memory out of 5000000
+ 11419 multiletter control sequences out of 15000+600000
+ 21430 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,45p,940b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,45p,818b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1
 000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
-fti1000.pfb>
-Output written on MemoriaSVM.pdf (9 pages, 475550 bytes).
+hare/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf-dist
+/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
+frm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></u
+sr/share/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on MemoriaMGP.pdf (3 pages, 180464 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

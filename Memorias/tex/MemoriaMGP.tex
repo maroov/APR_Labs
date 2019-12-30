@@ -1,0 +1,135 @@
+% Preamble
+% ---
+\documentclass[a4paper]{article}
+
+% Packages
+% ---
+\usepackage{bm}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage[htt]{hyphenat}
+\usepackage{capt-of}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{xcolor}
+\usepackage{listings}
+
+% Coding sections
+% ---
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+% Pagestyles
+% ---
+\pagestyle{fancy}
+\rhead{Roselló Beneitez, N. U.; Roselló Oviedo, M.}
+\lhead{APR: Práctica sobre MGP}
+\fancyfoot[C]{\thepage}
+
+% Main
+% ---
+\begin{document}
+
+\author{Roselló Beneitez, N. U.; Roselló Oviedo, M.}
+\title{APR: Práctica sobre Modelos Gráficos Probabilísticos}
+\date{6 de Enero de 2020}
+\maketitle{}
+\thispagestyle{empty}
+
+\newpage
+\tableofcontents
+\listoffigures
+
+\newpage
+\section{Descripción de la práctica}
+\quad 
+
+\section{Ejercicio A}
+\quad Comparemos los resultados para los datos completos e incompletos:
+
+    \begin{table*}[h!]
+      \noindent \begin{minipage}{.45\columnwidth}
+        \begin{lstlisting}[language=octave]
+		Datos completos
+		W:
+		1 1 : 1.0000 0.0000 
+		2 1 : 0.0556 0.9444 
+		1 2 : 0.0435 0.9565 
+		2 2 : 0.0000 1.0000 
+		S:
+		1 : 0.5532 0.4468 
+		2 : 0.9057 0.0943 
+		R:
+		1 : 0.7234 0.2766 
+		2 : 0.2264 0.7736 
+		C:
+		1 : 0.4700 
+		2 : 0.5300 
+		\end{lstlisting}
+      \end{minipage}\hfill
+      \begin{minipage}{.6\columnwidth}
+      	\begin{lstlisting}[language=octave, xleftmargin=1cm, xrightmargin=1cm]
+		Datos incompletos
+		W:
+		1 1 : 0.9998 0.0002 
+		2 1 : 0.0136 0.9864 
+		1 2 : 0.1177 0.8823 
+		2 2 : 0.0048 0.9952 
+		S:
+		1 : 0.5556 0.4444 
+		2 : 0.9999 0.0001 
+		R:
+		1 : 0.5518 0.4482 
+		2 : 0.2445 0.7555 
+		C:
+		1 : 0.5425 
+		2 : 0.4575 
+		\end{lstlisting}
+      \end{minipage}
+    \end{table*}
+
+\section{Ejercicio B}
+\quad El script \textit{matlab} para la red de diagnóstico de cáncer de pulmón se adjuntará, comentado y listo para su ejecución, junto con esta memoria. Mediante su utilización, se ha podido responder a las siguientes cuestiones:
+
+\begin{itemize} 
+\item ¿Cuál es la probabilidad de que un paciente no fumador no tenga cáncer de pulmón si la radiografía ha dado un resultado negativo pero sufre disnea?
+\[ P \left( !C | R = n, D = s \right) = 0.9949 = 99.49\% \]
+\item ¿Cuál es la explicación más probable de que un paciente sufra cáncer de pulmón?
+\[ \lbrace \left( 1 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \quad \lbrace \left( 3 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \]
+Lo cual se traduce en polución \textbf{baja}, fumador \textit{sí}, cáncer \textbf{positivo}, rayos X \textbf{positivo} y disnea \textbf{sí}.
+
+El log-verosimilitud de esta explicación es de $-5.0925$, esto es, una probabilidad del $0.61\%$.
+\end{itemize}
+
+\section{Conclusiones}
+\quad 
+
+\end{document}

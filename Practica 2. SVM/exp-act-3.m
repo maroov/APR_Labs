@@ -13,8 +13,7 @@ load( "data/mini/tr.dat" );
 load( "data/mini/trlabels.dat" );
 trNotSep = tr;
 trNotSepLabels = trlabels;
-
-resSep = svmtrain( trSepLabels, trSep, "-t 0 -c 1000" );
+resSep = svmtrain( trSepLabels, trSep, ["-t 0 -c ", num2str(C)] );
 resNotSep = svmtrain( trNotSepLabels, trNotSep, "-t 0 -c 1000" );
 
 # Multiplicadores de Lagrange
