@@ -6,6 +6,7 @@
 
 [Memoria práctica 4](https://docs.google.com/document/d/1AToEAfIPYUjckgDb81Lfrs9hY9LMHOwaUs-fTkmybps/edit?usp=sharing)
 
+[Tablas y gráficas](https://docs.google.com/spreadsheets/d/1E5kS95YLPAaUBgjqrrfSS8Gu_Rz5SRRDui-403wva_4/edit?usp=sharing)
 =======
 
 # APR_Labs
