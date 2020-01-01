@@ -1,0 +1,26 @@
+Ejercicio B.2
+ 
+P(!C | R = n, D = s)
+
+ans =
+
+    0.9949
+
+Ejercicio B.3
+Explicacion mas probable de cancer:
+
+explMaxProb =
+
+  1×5 cell array
+
+    {[1]}    {[2]}    {[2]}    {[3]}    {[2]}
+
+
+logVerosim =
+
+   -5.0925
+
+
+probabilidad =
+
+    0.0061

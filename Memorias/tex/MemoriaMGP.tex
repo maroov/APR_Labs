@@ -70,10 +70,25 @@
 
 \newpage
 \section{Descripción de la práctica}
-\quad 
+\quad En esta práctica se ha hecho uso de la librería \textit{BNT} (\textit{Bayes Net Toolbox}) implementada en \textit{matlab} con el fin de trabajar con redes bayesianas, un subconjunto de los modelos gráficos visto en teoría.
+
+\quad En primer lugar, se han hecho experimentos con una red de nodos booleanos que representa un césped que puede estar húmedo por causa del riego y/o la lluvia, disponiendo también de un nodo representando si el cielo se encuentra nublado.
+
+\begin{center}
+\includegraphics[width=200px]{4_ejA}
+\captionof{figure}{Red bayesiana para el modelo \textit{Sprinkler}.}
+\end{center}
+$ \\ $
+
+\quad Para el segundo ejercicio, hemos trabajado con la red vista en los ejemplos de la teoría representando el diagnóstico de cáncer de pulmón y/o disnea en un paciente sometido a rayos X que puede ser o no fumador y puede haber sufrido o no de polución.
+
+\begin{center}
+\includegraphics[width=200px]{4_ejB}
+\captionof{figure}{Red bayesiana para el modelo \textit{Cáncer de pulmón}.}
+\end{center}
 
 \section{Ejercicio A}
-\quad Comparemos los resultados para los datos completos e incompletos:
+\quad En este ejercicio se han comparado los resultados del aprendizaje a partir de datos completos (izquierda) e incompletos (derecha):
 
     \begin{table*}[h!]
       \noindent \begin{minipage}{.45\columnwidth}
@@ -115,13 +130,40 @@
 		\end{lstlisting}
       \end{minipage}
     \end{table*}
+\begin{center}
+\captionof{figure}{Resultados con datos completos e incompletos para la red bayesiana del modelo \textit{Sprinkler}.}
+\end{center}
+
+\quad Los resultados de los dos conjuntos de datos son muy parecidos. La única diferencia significativa observable (mayor al 10\%) está en los valores de \textit{lluvioso} (R) para el valor \textit{falso} (no llueve): cuando no está nublado, la probabilidad de que no llueva es del 55.18\% en los datos incompletos, mientras que esta misma probabilidad es del 72.34\% para los datos completos.
+
+\quad Planteamos dos hipótesis para justificar este fenómeno: o bien se han ocultado muchos valores de \textit{lluvioso} dado un valor \textit{falso} de \textit{nublado} ($C$), en cuyo caso la red bayesiana no sabría si clasificar las muestras en verdadero o falso; o bien se han ocultado muchos de los valores \textit{nublado = falso} y algunos de los valores \textit{nublado = verdadero}, por lo que los valores de \textit{lluvioso} dado \textit{nublado = falso} podrían tomarse como la distribución \textit{a priori} de \textit{lluvioso}. Para seguir este razonamiento, cabe mencionar que si se oculta el valor de \textit{nublado} para todas las muestras (que son equiprobables), la probabilidad de \textit{lluvioso = verdadero} sería igual (o bastante parecida, como es el caso) a la probabilidad de \textit{lluvioso = falso}.
+
+\quad Ambos razonamientos se basan en el hecho de que faltan muestras que tengan los valores de \textit{nublado = falso} o de \textit{lluvioso = falso}, pudiendo darse también una combinación de ambos.
 
 \section{Ejercicio B}
 \quad El script \textit{matlab} para la red de diagnóstico de cáncer de pulmón se adjuntará, comentado y listo para su ejecución, junto con esta memoria. Mediante su utilización, se ha podido responder a las siguientes cuestiones:
 
 \begin{itemize} 
 \item ¿Cuál es la probabilidad de que un paciente no fumador no tenga cáncer de pulmón si la radiografía ha dado un resultado negativo pero sufre disnea?
-\[ P \left( !C | R = n, D = s \right) = 0.9949 = 99.49\% \]
+
+El resultado obtenido por \textit{matlab} tras programar la red e insertar las evidencias es:
+
+\[ P \left( C = n | F = n, X = n, D = s \right) = 0.9989 = 99.89\% \]
+
+Podemos comprobar dicho resultado manualmente. A partir de la estructura de la red sabemos que:
+
+\[ P(P, F, C, X, D) = P(P)\,P(F)\,P(C\,|\,P,F)\,P(X\,|\,C)\,P(D\,|\,C) \]
+
+Por tanto, se puede deducir:
+
+\[ P(C\,|\,F,X,D) = \dfrac{P(C,F,X,D)}{P(F,X,D)} =\dfrac{P(P)\,P(F)\,P(C\,|\,P,F)\,P(X\,|\,C)\,P(D\,|\,C)}{P(F,X,D)} \]
+\[= \dfrac{P(X\,|\,C)\,P(D\,|\,C) \sum^{P}_{i=(b,a)}P(C\,|\,P=i,F)}{\sum^{P}_{i=(b,a)}\sum^{C}_{j=n,p}P(C=j\,|\,P=i,F)\,P(X\,|\,C=j)\,P(D\,|\,C=j)} \]
+
+Aplicado a nuestro caso particular:
+\[ P \left( C = n | F = n, X = n, D = s \right) = \]
+\[ \dfrac{P(X=n\,|\,C=n)\,P(D=s\,|\,C=n) \sum\limits_{p= \lbrace b,a \rbrace }P(C=n\,|\,P=i,F=n)}{\sum\limits_{p= \lbrace b,a \rbrace }\sum\limits_{c= \lbrace n,p \rbrace }P(C=c\,|\,P=p,F=n)\,P(X=n\,|\,C=c)\,P(D=n\,|\,C=c)} \]
+\[ = \dfrac{0.8 \cdot 0.3 \cdot (0.999+0.5)} {0.8 \cdot 0.3 \cdot (0.999+0.5) + 0.1 \cdot 0.65 \cdot (0.001 + 0.05)} = 0.99296 = 99.30\% \]
+
 \item ¿Cuál es la explicación más probable de que un paciente sufra cáncer de pulmón?
 \[ \lbrace \left( 1 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \quad \lbrace \left( 3 \right) \rbrace \quad \lbrace \left( 2 \right) \rbrace \]
 Lo cual se traduce en polución \textbf{baja}, fumador \textit{sí}, cáncer \textbf{positivo}, rayos X \textbf{positivo} y disnea \textbf{sí}.
@@ -130,6 +172,6 @@ El log-verosimilitud de esta explicación es de $-5.0925$, esto es, una probabil
 \end{itemize}
 
 \section{Conclusiones}
-\quad 
+\quad Las redes bayesianas nos permiten representar gráficamente y de una forma compacta distribuciones de probabilidad conjunta. Su capacidad de aprendizaje e inferencia nos manifiesta su utilidad como herramienta potencial para múltiples aplicaciones como pueden ser las predicciones o el diagnóstico médico (como hemos visto con estos ejemplos); así como para otros campos como pueden ser la visión por computador o el procesado de lenguajes naturales.
 
 \end{document}

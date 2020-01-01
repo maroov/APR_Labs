@@ -17,9 +17,9 @@ printf( "Finished loading files.\n" );
     
 addpath("./nnet");
 
-k = 10;
-numNeuronsHiddenLayer = 20;
-perc = 0.8;
+k = 50;
+numNeuronsHiddenLayer = 40;
+perc = 0.5;
 
 printf( "Starting PCA...\n" ); 
 # Reduce dimensionality

@@ -1,2 +1,6 @@
 \babel@toc {spanish}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces asdf}}{3}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Valores de dimensionalidad reducida mediante PCA contra valores de neuronas en la capa oculta, usando el 50\% de las muestras para entrenamiento.}}{3}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Valores de dimensionalidad reducida mediante PCA contra valores de neuronas en la capa oculta, usando el 80\% de las muestras para entrenamiento.}}{4}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Visualización gráfica de los resultados para 50\%.}}{4}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Visualización gráfica de los resultados para 80\%.}}{5}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Comparativa de los resultados para 50\% vs 80\%.}}{5}% 

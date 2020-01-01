@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  30 DEC 2019 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  1 JAN 2020 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,7 +50,6 @@ File: babel.def 2019/10/15 3.35 Babel common definitions
 \es@quottoks=\toks14
 \es@quotdepth=\count90
 Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
@@ -414,9 +413,27 @@ LaTeX Info: Redefining \% on input line 1.
 <./images/2_mnist.png, id=14, 191.71625pt x 201.75375pt>
 File: ./images/2_mnist.png Graphic file (type png)
 <use ./images/2_mnist.png>
-Package pdftex.def Info: ./images/2_mnist.png  used on input line 49.
-(pdftex.def)             Requested size: 100.37537pt x 105.63292pt.
- [3 <./images/2_mnist.png>] (./MemoriaMLP.aux
+Package pdftex.def Info: ./images/2_mnist.png  used on input line 55.
+(pdftex.def)             Requested size: 200.75073pt x 211.27507pt.
+ [3 <./images/2_mnist.png>]
+File: ./images/2_mnist.png Graphic file (type png)
+<use ./images/2_mnist.png>
+Package pdftex.def Info: ./images/2_mnist.png  used on input line 57.
+(pdftex.def)             Requested size: 200.75073pt x 211.27507pt.
+File: ./images/2_mnist.png Graphic file (type png)
+<use ./images/2_mnist.png>
+Package pdftex.def Info: ./images/2_mnist.png  used on input line 59.
+(pdftex.def)             Requested size: 200.75073pt x 211.27507pt.
+File: ./images/2_mnist.png Graphic file (type png)
+<use ./images/2_mnist.png>
+Package pdftex.def Info: ./images/2_mnist.png  used on input line 61.
+(pdftex.def)             Requested size: 200.75073pt x 211.27507pt.
+ [4]
+File: ./images/2_mnist.png Graphic file (type png)
+<use ./images/2_mnist.png>
+Package pdftex.def Info: ./images/2_mnist.png  used on input line 63.
+(pdftex.def)             Requested size: 200.75073pt x 211.27507pt.
+ [5] [6] (./MemoriaMLP.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -425,22 +442,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4530 strings out of 492167
- 60647 string characters out of 6131557
- 145190 words of memory out of 5000000
- 8793 multiletter control sequences out of 15000+600000
- 18901 words of font info for 56 fonts, out of 8000000 for 9000
+ 4501 strings out of 492167
+ 60238 string characters out of 6131557
+ 147628 words of memory out of 5000000
+ 8763 multiletter control sequences out of 15000+600000
+ 19587 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,45p,818b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,45p,1110b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm120
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on MemoriaMLP.pdf (3 pages, 83238 bytes).
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on MemoriaMLP.pdf (6 pages, 117328 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
