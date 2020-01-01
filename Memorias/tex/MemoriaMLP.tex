@@ -49,18 +49,49 @@
 
 \quad Puesto que los recursos de los equipos disponibles no eran ilimitados, han habido ejecuciones para las que no ha sido posible obtener un resultado, bien porque el entrenamiento ha sido terminado por el programa en el entrenamiento, o bien porque no se disponía de la suficiente memoria RAM como para almacenar todos los cálculos en memoria, por lo que el programa utilizaba memoria virtual procedente del disco y como consecuencia el tiempo del entrenamiento aumentaba de manera drástica.
 
-\quad Para ambos porcentajes de entrenamiento, se han realizado experimentos variando tanto la reducción de dimensionalidad mediante PCA como el número de neuronas en la capa oculta (todos los experimentos cuentan con una sola capa oculta). El error obtenido se muestra en cada correspondiente casilla de las tablas siguientes tablas:
+\quad Para ambos porcentajes de entrenamiento, se han realizado experimentos variando tanto la reducción de dimensionalidad mediante PCA como el número de neuronas en la capa oculta (todos los experimentos cuentan con una sola capa oculta). El error obtenido se muestra en cada correspondiente casilla de las tablas siguientes tablas.
 
+\quad En primer lugar, con un 50\% de muestras destinadas a entrenamiento el mejor error es de un 4.28\% al emplear 40 neuronas en la capa oculta y 30 dimensiones de PCA.
+$ \\ $
 \begin{center}
-\includegraphics[width=200px]{2_mnist}
-\captionof{figure}{Valores de dimensionalidad reducida mediante PCA contra valores de neuronas en la capa oculta, usando el 50\% de las muestras para entrenamiento.}
-\includegraphics[width=200px]{2_mnist}
-\captionof{figure}{Valores de dimensionalidad reducida mediante PCA contra valores de neuronas en la capa oculta, usando el 80\% de las muestras para entrenamiento.}
-\includegraphics[width=200px]{2_mnist}
+\includegraphics[width=250px]{3_50_tabla}
+\captionof{figure}{Error en función de PCA y número de neuronas, usando el 50\% de las muestras para entrenamiento.}
+\end{center}
+$ \\ $
+\begin{center}
+\includegraphics[width=250px]{3_50_error}
+\captionof{figure}{Intervalos de confianza para el experimento de 50\%.}
+\end{center}
+$ \\ $
+\begin{center}
+\includegraphics[width=200px]{3_50_graph}
 \captionof{figure}{Visualización gráfica de los resultados para 50\%.}
-\includegraphics[width=200px]{2_mnist}
+\end{center}
+$ \\ $
+\newpage
+\quad El segundo experimento, con 80\% de muestras para entrenamiento, produjo mejores resultados, con un mínimo de 3.40\% para los mismos parámetros que el caso anterior.
+$ \\ $
+\begin{center}
+\includegraphics[width=250px]{3_80_tabla}
+\captionof{figure}{Error en función de PCA y número de neuronas, usando el 80\% de las muestras para entrenamiento.}
+\end{center}
+$ \\ $
+\begin{center}
+\includegraphics[width=250px]{3_80_error}
+\captionof{figure}{Intervalos de confianza para el experimento de 80\%.}
+\end{center}
+$ \\ $
+\begin{center}
+\includegraphics[width=200px]{3_80_graph}
 \captionof{figure}{Visualización gráfica de los resultados para 80\%.}
-\includegraphics[width=200px]{2_mnist}
+\end{center}
+$ \\ $
+
+\newpage
+Finalmente, se ha realizado una tabla comparativa para facilitar la visualización de todos los resultados.
+$ \\ $
+\begin{center}
+\includegraphics[width=\textwidth]{3_comparativa}
 \captionof{figure}{Comparativa de los resultados para 50\% vs 80\%.}
 \end{center}
 

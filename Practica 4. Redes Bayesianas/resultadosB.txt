@@ -1,10 +1,10 @@
 Ejercicio B.2
  
-P(!C | R = n, D = s)
+P(C = n | F = n, X = n, D = s)
 
 ans =
 
-    0.9949
+    0.9989
 
 Ejercicio B.3
 Explicacion mas probable de cancer:

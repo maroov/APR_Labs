@@ -19,7 +19,7 @@ addpath("./nnet");
 
 k = 50;
 numNeuronsHiddenLayer = 40;
-perc = 0.5;
+perc = 0.8;
 
 printf( "Starting PCA...\n" ); 
 # Reduce dimensionality
