@@ -1,4 +1,7 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Descripción de la práctica}{3}% 
 \contentsline {section}{\numberline {2}Redes neuronales en MNIST}{3}% 
-\contentsline {section}{\numberline {3}Conclusiones}{8}% 
+\contentsline {subsection}{\numberline {2.1}Entrenamiento con 50\%}{3}% 
+\contentsline {subsection}{\numberline {2.2}Entrenamiento con 80\%}{4}% 
+\contentsline {subsection}{\numberline {2.3}Comparativa}{5}% 
+\contentsline {section}{\numberline {3}Conclusiones}{7}% 

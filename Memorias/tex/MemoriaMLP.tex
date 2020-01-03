@@ -14,6 +14,7 @@
 \usepackage{amsmath}
 \usepackage[htt]{hyphenat}
 \usepackage{capt-of}
+\usepackage{changepage}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 
@@ -42,7 +43,7 @@
 \section{Descripción de la práctica}
 \quad En esta práctica se ha trabajado con redes neuronales multicapa en Octave mediante la librería \textit{nnet}, la cual dispone de sus propios métodos auxiliares con los que entrenar un \textit{multilayer perceptron}.
 
-\quad La primera parte de la práctica, de carácter didáctico e iniciativo, consiste en experimentar con el corpus \textit{hart} para familiarizarse con la metodología de la librería, y no se haya incluida en esta memoria. La segunda parte, la cual desarrollaremos a continuación, se centra en la clasificación de dígitos de la base de datos MNIST.
+\quad La primera parte de la práctica, de carácter didáctico e iniciativo, consiste en experimentar con el corpus \textit{hart} para familiarizarse con la metodología de la librería, y no se halla incluida en esta memoria. La segunda parte, la cual desarrollaremos a continuación, se centra en la clasificación de dígitos de la base de datos MNIST.
 
 \section{Redes neuronales en MNIST}
 \quad Se ha entrenado la red neuronal con diversos valores de porcentaje de muestras destinadas al entrenamiento, concretamente 50\% y 80\%; el resto de los valores de entrenamiento se han destinado al conjunto de validación del modelo.
@@ -51,48 +52,62 @@
 
 \quad Para ambos porcentajes de entrenamiento, se han realizado experimentos variando tanto la reducción de dimensionalidad mediante PCA como el número de neuronas en la capa oculta (todos los experimentos cuentan con una sola capa oculta). El error obtenido se muestra en cada correspondiente casilla de las tablas siguientes tablas.
 
+\subsection{Entrenamiento con 50\%}
+
 \quad En primer lugar, con un 50\% de muestras destinadas a entrenamiento el mejor error es de un 4.28\% al emplear 40 neuronas en la capa oculta y 30 dimensiones de PCA.
 $ \\ $
 \begin{center}
 \includegraphics[width=250px]{3_50_tabla}
-\captionof{figure}{Error en función de PCA y número de neuronas, usando el 50\% de las muestras para entrenamiento.}
+\captionof{figure}{{\footnotesize Error en función de PCA y número de neuronas, usando el 50\% de las muestras para entrenamiento.}}
 \end{center}
 $ \\ $
 \begin{center}
 \includegraphics[width=250px]{3_50_error}
-\captionof{figure}{Intervalos de confianza para el experimento de 50\%.}
+\captionof{figure}{{\footnotesize Intervalos de confianza para el experimento de 50\%.}}
 \end{center}
 $ \\ $
-\begin{center}
-\includegraphics[width=200px]{3_50_graph}
-\captionof{figure}{Visualización gráfica de los resultados para 50\%.}
-\end{center}
-$ \\ $
-\newpage
+\subsection{Entrenamiento con 80\%}
+
 \quad El segundo experimento, con 80\% de muestras para entrenamiento, produjo mejores resultados, con un mínimo de 3.40\% para los mismos parámetros que el caso anterior.
 $ \\ $
 \begin{center}
 \includegraphics[width=250px]{3_80_tabla}
-\captionof{figure}{Error en función de PCA y número de neuronas, usando el 80\% de las muestras para entrenamiento.}
+\captionof{figure}{{\footnotesize Error en función de PCA y número de neuronas, usando el 80\% de las muestras para entrenamiento.}}
 \end{center}
 $ \\ $
 \begin{center}
 \includegraphics[width=250px]{3_80_error}
-\captionof{figure}{Intervalos de confianza para el experimento de 80\%.}
+\captionof{figure}{{\footnotesize Intervalos de confianza para el experimento de 80\%.}}
 \end{center}
 $ \\ $
-\begin{center}
-\includegraphics[width=200px]{3_80_graph}
-\captionof{figure}{Visualización gráfica de los resultados para 80\%.}
-\end{center}
-$ \\ $
+
+\newpage
+\subsection{Comparativa}
+
+A continucación se pueden observar las gráficas respresentando los resultados para cada experimento:
+
+\begin{figure}[!h]
+	\begin{adjustwidth}{-70pt}{-70pt}
+	  \centering
+	  \begin{minipage}[b]{0.65\textwidth}
+	    \includegraphics[width=\textwidth]{3_50_graph}
+	    \caption{{\footnotesize Visualización gráfica de los resultados para 50\%.}}
+	  \end{minipage}
+	  \hfill
+	  \begin{minipage}[b]{0.65\textwidth}
+	    \includegraphics[width=\textwidth]{3_80_graph}
+	    \caption{{\footnotesize Visualización gráfica de los resultados para 80\%.}}
+	  \end{minipage}
+	  \end{adjustwidth}
+\end{figure}
+
 
 \newpage
 Finalmente, se ha realizado una tabla comparativa para facilitar la visualización de todos los resultados.
 $ \\ $
 \begin{center}
 \includegraphics[width=\textwidth]{3_comparativa}
-\captionof{figure}{Comparativa de los resultados para 50\% vs 80\%.}
+\captionof{figure}{{\footnotesize Comparativa de los resultados para 50\% vs 80\%.}}
 \end{center}
 
 \section{Conclusiones}

@@ -14,7 +14,7 @@ load( "data/mini/trlabels.dat" );
 trNotSep = tr;
 trNotSepLabels = trlabels;
 resSep = svmtrain( trSepLabels, trSep, ["-t 0 -c ", num2str(C)] );
-resNotSep = svmtrain( trNotSepLabels, trNotSep, "-t 0 -c 1000" );
+resNotSep = svmtrain( trNotSepLabels, trNotSep, ["-t 0 -c ", num2str(C)] );
 
 # Multiplicadores de Lagrange
 multsSep = resSep.sv_coef
