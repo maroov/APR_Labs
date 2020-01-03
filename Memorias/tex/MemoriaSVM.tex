@@ -40,58 +40,62 @@
 
 \newpage
 \section{Descripción de la práctica}
-\quad En esta práctica se han trabajado con máquinas de vector soporte implementadas en Octave mediante la librería \textit{libsvm}. Dicha librería admite diversos  tipos de parámetros, como pueden ser: la tolerancia del sistema modelada mediante el parámetro \textit{C}, el tipo del \textit{kernel} y su grado, entre otras opciones. Los experimentos de esta práctica se han centrado mayoritariamente en pruebas con variaciones de los tres parámetros mencionados previamente, puesto que se considera que son los más relevantes dado lo visto en las sesiones de teoría para la correcta realización de la práctica.
+\quad En esta práctica se han trabajado con máquinas de vector soporte implementadas en Octave mediante la librería \textit{libsvm}. Dicha librería admite diversos  tipos de parámetros, como pueden ser: la tolerancia del sistema modelada mediante el parámetro \textit{C}, el tipo del \textit{kernel} y su grado, entre otras opciones.
+
+\quad Los experimentos de esta práctica se han centrado mayoritariamente en pruebas con variaciones de los tres parámetros mencionados previamente, puesto que se considera que son los más relevantes dado lo visto en las sesiones de teoría para la correcta realización de la práctica.
 
 \quad Puesto que las fórmulas utilizadas se encuentran al final de la práctica, se procederá directamente a la exposición de los resultados sin entrar en mayor detalle en el desarrollo matemático de estos.
 
 \section{Un pequeño ejercicio completo de aprendizaje}
 \quad En el primer ejercicio a entregar, se han probado diversas combinaciones para los valores de \textit{C} con respecto a los datos linealmente separables y a los no linealmente separables dados por el conjunto de datos \textit{mini}. Concretamente, estos valores han seguido una especie de función logarítmica con el fin de ver el orden de magnitud en el cual los modelos mostraban sus mejores comportamientos.
 
-En primer lugar, para el conjunto separable:
+\quad En primer lugar, para el conjunto separable:
 
 \includegraphics[width=\textwidth]{2_Separables}
 \captionof{figure}{Resultados para el conjunto linealmente separable}
 
-\includegraphics[width=\textwidth]{2_S_01}
-\captionof{figure}{Conjunto separable, C = 0.1}
-
-\includegraphics[width=\textwidth]{2_S_1}
-\captionof{figure}{Conjunto separable, C = 1}
-
 \includegraphics[width=\textwidth]{2_S_10}
 \captionof{figure}{Conjunto separable, C = 10}
 
+\includegraphics[width=\textwidth]{2_S_100}
+\captionof{figure}{Conjunto separable, C = 100}
+
 \includegraphics[width=\textwidth]{2_S_1000}
 \captionof{figure}{Conjunto separable, C = 1000}
-\newpage
-En cuanto al conjunto no separable, se ha obtenido:
+
+$ \\ $
+
+\quad En cuanto al conjunto no separable, se ha obtenido:
 
 \includegraphics[width=\textwidth]{2_NoSeparables}
 \captionof{figure}{Resultados para el conjunto no linealmente separable}
 
-\includegraphics[width=\textwidth]{2_NS_01}
-\captionof{figure}{Conjunto no separable, C = 0.1}
-
-\includegraphics[width=\textwidth]{2_NS_1}
-\captionof{figure}{Conjunto no separable, C = 1}
-
 \includegraphics[width=\textwidth]{2_NS_10}
 \captionof{figure}{Conjunto no separable, C = 10}
 
+\includegraphics[width=\textwidth]{2_NS_100}
+\captionof{figure}{Conjunto no separable, C = 100}
+
 \includegraphics[width=\textwidth]{2_NS_1000}
 \captionof{figure}{Conjunto no separable, C = 1000}
+
 $ \\ $
+
 \section{Aplicación de SVM a MNIST}
-\quad En el segundo ejercicio, correspondiente a la base de datos MNIST, se han probado tanto diversos valores de \textit{C} como diversos grados del polinomio correspondiente al \textit{kernel} con el que se ha ejecutado el entrenamiento. Cabe destacar que únicamente se ha probado este \textit{kernel} polinómico debido a que los otros tipos de kernel disponibles (lineal, gaussiano o de función radial y sigmoide) ya han sido testeados en el entregable de teoría correspondiente al tema 4 y se ha observado como  su tasa de acierto es muy reducida para este caso concreto. Además, se conoce que el \textit{kernel} polinómico es el de mayor acierto gracias a la página web del MNIST. Tras diversas pruebas, se ha determinado que el valor de \textit{C} no es relevante para este caso de estudio, ya que se obtienen los mismos resultados para tolerancias en el rango $\left[ 0.001-1000 \right]$.
+\quad En el segundo ejercicio, correspondiente a la base de datos MNIST, se han probado tanto diversos valores de \textit{C} como diversos grados del polinomio correspondiente al \textit{kernel} con el que se ha ejecutado el entrenamiento.
+
+\quad Cabe destacar que únicamente se ha probado este \textit{kernel} polinómico debido a que los otros tipos de kernel disponibles (lineal, gaussiano o de función radial y sigmoide) ya han sido testeados en el entregable de teoría correspondiente al tema 4 y se ha observado como  su tasa de acierto es muy reducida para este caso concreto. Además, se conoce que el \textit{kernel} polinómico es el de mayor acierto gracias a la página web del MNIST.
+
+\quad Tras diversas pruebas, se ha determinado que el valor de \textit{C} no es relevante para este caso de estudio, ya que se obtienen los mismos resultados para tolerancias en el rango $\left[ 0.001-1000 \right]$.
 
 \begin{center}
 \includegraphics[width=120px]{2_mnist}
-\captionof{figure}{Error según el grado del kernel polinómico (MNIST)}
+\captionof{figure}{Tabla de errores según el grado del kernel polinómico (MNIST)}
 \end{center}
 $ \\ $
 \begin{center}
 \includegraphics[width=280px]{2_mnist_plot}
-\captionof{figure}{Error según el grado del kernel polinómico (MNIST)}
+\captionof{figure}{Gráfica de errores según el grado del kernel polinómico (MNIST)}
 \end{center}
 $ \\ $
 \section{Conclusiones}
