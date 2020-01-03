@@ -34,7 +34,7 @@ redB.CPD{D} = tabular_CPD(redB, D, [0.7 0.35 0.3 0.65]);
 
 %% B.2
 disp("Ejercicio B.2");
-% P(!C | R = n, D = s)
+% P(C = n | F = n, X = n, D = s)
 evidencia = cell(1, N);
 evidencia{F} = 1; % Fumador no
 evidencia{X} = 1; % Rayos no
