@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  4 JAN 2020 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  4 JAN 2020 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,57 +412,53 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
 <./images/1_41_1.png, id=16, 193.72375pt x 221.82875pt>
 File: ./images/1_41_1.png Graphic file (type png)
 <use ./images/1_41_1.png>
-Package pdftex.def Info: ./images/1_41_1.png  used on input line 56.
-(pdftex.def)             Requested size: 120.45044pt x 137.92502pt.
-[3 <./images/1_41_1.png>]
-<./images/1_41_2.png, id=24, 475.7775pt x 377.41pt>
+Package pdftex.def Info: ./images/1_41_1.png  used on input line 58.
+(pdftex.def)             Requested size: 100.37537pt x 114.93864pt.
+
+Overfull \hbox (14.12537pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+<./images/1_41_2.png, id=18, 475.7775pt x 377.41pt>
 File: ./images/1_41_2.png Graphic file (type png)
 <use ./images/1_41_2.png>
-Package pdftex.def Info: ./images/1_41_2.png  used on input line 59.
+Package pdftex.def Info: ./images/1_41_2.png  used on input line 62.
 (pdftex.def)             Requested size: 250.93842pt x 199.05887pt.
-<./images/1_42_1.png, id=25, 675.52374pt x 241.90375pt>
+
+Overfull \hbox (26.69052pt too wide) in paragraph at lines 62--63
+[][] 
+ []
+
+<./images/1_42_1.png, id=19, 675.52374pt x 241.90375pt>
 File: ./images/1_42_1.png Graphic file (type png)
 <use ./images/1_42_1.png>
-Package pdftex.def Info: ./images/1_42_1.png  used on input line 66.
+Package pdftex.def Info: ./images/1_42_1.png  used on input line 72.
 (pdftex.def)             Requested size: 345.0pt x 123.54645pt.
-<./images/1_42_2.png, id=26, 675.52374pt x 241.90375pt>
+[3 <./images/1_41_1.png> <./images/1_41_2.png>]
+<./images/1_42_2.png, id=27, 675.52374pt x 241.90375pt>
 File: ./images/1_42_2.png Graphic file (type png)
 <use ./images/1_42_2.png>
-Package pdftex.def Info: ./images/1_42_2.png  used on input line 70.
+Package pdftex.def Info: ./images/1_42_2.png  used on input line 74.
 (pdftex.def)             Requested size: 345.0pt x 123.54645pt.
-<./images/1_42_3.png, id=27, 710.655pt x 647.41875pt>
+<./images/1_42_3.png, id=28, 710.655pt x 647.41875pt>
 File: ./images/1_42_3.png Graphic file (type png)
 <use ./images/1_42_3.png>
-Package pdftex.def Info: ./images/1_42_3.png  used on input line 73.
+Package pdftex.def Info: ./images/1_42_3.png  used on input line 76.
 (pdftex.def)             Requested size: 345.0pt x 314.30396pt.
- [4 <./images/1_41_2.png> <./images/1_42_1.png> <./images/1_42_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ [4 <./images/1_42_1.png> <./images/1_42_2.png> <./images/1_42_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-<./images/1_52_1.png, id=34, 707.64375pt x 121.45375pt>
+<./images/1_52_1.png, id=35, 707.64375pt x 121.45375pt>
 File: ./images/1_52_1.png Graphic file (type png)
 <use ./images/1_52_1.png>
-Package pdftex.def Info: ./images/1_52_1.png  used on input line 86.
+Package pdftex.def Info: ./images/1_52_1.png  used on input line 89.
 (pdftex.def)             Requested size: 345.0pt x 59.21262pt.
-[5 <./images/1_42_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-<./images/1_52_2.png, id=40, 707.64375pt x 121.45375pt>
+<./images/1_52_2.png, id=36, 707.64375pt x 121.45375pt>
 File: ./images/1_52_2.png Graphic file (type png)
 <use ./images/1_52_2.png>
 Package pdftex.def Info: ./images/1_52_2.png  used on input line 91.
@@ -472,26 +468,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<./images/1_tablas.png, id=41, 697.60625pt x 1185.42876pt>
-File: ./images/1_tablas.png Graphic file (type png)
-<use ./images/1_tablas.png>
-Package pdftex.def Info: ./images/1_tablas.png  used on input line 101.
-(pdftex.def)             Requested size: 331.23871pt x 562.86745pt.
-[6 <./images/1_52_1.png> <./images/1_52_2.png>] [7 <./images/1_tablas.png>]
-<./images/1_graficas.png, id=52, 1932.21875pt x 1016.79875pt>
-File: ./images/1_graficas.png Graphic file (type png)
-<use ./images/1_graficas.png>
-Package pdftex.def Info: ./images/1_graficas.png  used on input line 104.
-(pdftex.def)             Requested size: 572.21085pt x 301.1261pt.
-
-[8
-
- <./images/1_graficas.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+<./images/1_52_3.png, id=37, 552.0625pt x 622.325pt>
+File: ./images/1_52_3.png Graphic file (type png)
+<use ./images/1_52_3.png>
+Package pdftex.def Info: ./images/1_52_3.png  used on input line 99.
+(pdftex.def)             Requested size: 345.0pt x 388.92368pt.
+[5 <./images/1_52_1.png> <./images/1_52_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
+<./images/1_tablas.png, id=44, 697.60625pt x 1185.42876pt>
+File: ./images/1_tablas.png Graphic file (type png)
+<use ./images/1_tablas.png>
+Package pdftex.def Info: ./images/1_tablas.png  used on input line 111.
+(pdftex.def)             Requested size: 331.23871pt x 562.86745pt.
+[6 <./images/1_52_3.png>]
+<./images/1_ic.png, id=49, 707.64375pt x 1185.42876pt>
+File: ./images/1_ic.png Graphic file (type png)
+<use ./images/1_ic.png>
+Package pdftex.def Info: ./images/1_ic.png  used on input line 113.
+(pdftex.def)             Requested size: 331.23871pt x 554.89058pt.
+ [7 <./images/1_tablas.png>] [8 <./images/1_ic.png>]
+<./images/1_graficas.png, id=59, 1932.21875pt x 1016.79875pt>
+File: ./images/1_graficas.png Graphic file (type png)
+<use ./images/1_graficas.png>
+Package pdftex.def Info: ./images/1_graficas.png  used on input line 116.
+(pdftex.def)             Requested size: 572.21085pt x 301.1261pt.
+
 [9
+
+ <./images/1_graficas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+[10
 
 ] (./MemoriaMXG.aux
 LaTeX Info: Redefining \. on input line 7.
@@ -502,10 +514,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4581 strings out of 492167
- 61705 string characters out of 6131557
- 148787 words of memory out of 5000000
- 8839 multiletter control sequences out of 15000+600000
+ 4595 strings out of 492167
+ 61957 string characters out of 6131557
+ 147787 words of memory out of 5000000
+ 8853 multiletter control sequences out of 15000+600000
  20363 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,45p,1108b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -518,10 +530,10 @@ hare/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 frm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on MemoriaMXG.pdf (9 pages, 480676 bytes).
+Output written on MemoriaMXG.pdf (10 pages, 578875 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
