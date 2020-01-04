@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  4 JAN 2020 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  4 JAN 2020 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MemoriaSVM.tex
-(./MemoriaSVM.tex
+**MemoriaMXG.tex
+(./MemoriaMXG.tex
 LaTeX2e <2019-10-01> patch level 1
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -215,8 +215,8 @@ LaTeX Info: Redefining \_ on input line 43.
 ) (/usr/share/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
@@ -231,122 +231,124 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
+)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
-) (./MemoriaSVM.aux
+) (./MemoriaMXG.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
-\openout1 = `MemoriaSVM.aux'.
+\openout1 = `MemoriaMXG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+0.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/it' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/sl' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/sc' undefined
-(Font)              using `T1/cmtt/b/n' instead on input line 29.
+(Font)              using `T1/cmtt/b/n' instead on input line 30.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 29.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/it' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/it' tried instead on input line 29.
+(Font)              Font shape `T1/cmtt/m/it' tried instead on input line 30.
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sl' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/it' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/sl' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/sb/sc' undefined
-(Font)              using `T1/cmtt/sb/n' instead on input line 29.
+(Font)              using `T1/cmtt/sb/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/it' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/sl' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/c/sc' undefined
-(Font)              using `T1/cmtt/c/n' instead on input line 29.
+(Font)              using `T1/cmtt/c/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/it' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/sl' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/l/sc' undefined
-(Font)              using `T1/cmtt/l/n' instead on input line 29.
+(Font)              using `T1/cmtt/l/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/ui' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/ui' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 29.
+(Font)              using `T1/cmtt/bx/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/In' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 29.
+(Font)              using `T1/cmtt/m/n' instead on input line 30.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -394,95 +396,104 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./MemoriaSVM.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./MemoriaMXG.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write3
-\openout3 = `MemoriaSVM.toc'.
+\openout3 = `MemoriaMXG.toc'.
 
- (./MemoriaSVM.lof
+ (./MemoriaMXG.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
-\openout4 = `MemoriaSVM.lof'.
+\openout4 = `MemoriaMXG.lof'.
 
 
 [2]
-<./images/2_Separables.png, id=14, 619.31375pt x 231.86626pt>
-File: ./images/2_Separables.png Graphic file (type png)
-<use ./images/2_Separables.png>
-Package pdftex.def Info: ./images/2_Separables.png  used on input line 54.
-(pdftex.def)             Requested size: 345.0pt x 129.16844pt.
-<./images/2_S_10.png, id=16, 1204.5pt x 903.375pt>
-File: ./images/2_S_10.png Graphic file (type png)
-<use ./images/2_S_10.png>
-Package pdftex.def Info: ./images/2_S_10.png  used on input line 57.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [3 <./images/2_Separables.png>]
-<./images/2_S_100.png, id=22, 1204.5pt x 903.375pt>
-File: ./images/2_S_100.png Graphic file (type png)
-<use ./images/2_S_100.png>
-Package pdftex.def Info: ./images/2_S_100.png  used on input line 60.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-<./images/2_S_1000.png, id=23, 1204.5pt x 903.375pt>
-File: ./images/2_S_1000.png Graphic file (type png)
-<use ./images/2_S_1000.png>
-Package pdftex.def Info: ./images/2_S_1000.png  used on input line 63.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [4 <./images/2_S_10.png (PNG copy)> <./images/2_S_100.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
-<./images/2_NoSeparables.png, id=27, 619.31375pt x 421.575pt>
-File: ./images/2_NoSeparables.png Graphic file (type png)
-<use ./images/2_NoSeparables.png>
-Package pdftex.def Info: ./images/2_NoSeparables.png  used on input line 70.
-(pdftex.def)             Requested size: 345.0pt x 234.85173pt.
-<./images/2_NS_10.png, id=28, 1204.5pt x 903.375pt>
-File: ./images/2_NS_10.png Graphic file (type png)
-<use ./images/2_NS_10.png>
-Package pdftex.def Info: ./images/2_NS_10.png  used on input line 73.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-[5 <./images/2_S_1000.png (PNG copy)> <./images/2_NoSeparables.png>]
-<./images/2_NS_100.png, id=33, 1204.5pt x 903.375pt>
-File: ./images/2_NS_100.png Graphic file (type png)
-<use ./images/2_NS_100.png>
-Package pdftex.def Info: ./images/2_NS_100.png  used on input line 76.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
-<./images/2_NS_1000.png, id=34, 1204.5pt x 903.375pt>
-File: ./images/2_NS_1000.png Graphic file (type png)
-<use ./images/2_NS_1000.png>
-Package pdftex.def Info: ./images/2_NS_1000.png  used on input line 79.
-(pdftex.def)             Requested size: 345.0pt x 258.74649pt.
- [6 <./images/2_NS_10.png (PNG copy)> <./images/2_NS_100.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+<./images/1_41_1.png, id=16, 193.72375pt x 221.82875pt>
+File: ./images/1_41_1.png Graphic file (type png)
+<use ./images/1_41_1.png>
+Package pdftex.def Info: ./images/1_41_1.png  used on input line 56.
+(pdftex.def)             Requested size: 120.45044pt x 137.92502pt.
+[3 <./images/1_41_1.png>]
+<./images/1_41_2.png, id=24, 475.7775pt x 377.41pt>
+File: ./images/1_41_2.png Graphic file (type png)
+<use ./images/1_41_2.png>
+Package pdftex.def Info: ./images/1_41_2.png  used on input line 59.
+(pdftex.def)             Requested size: 250.93842pt x 199.05887pt.
+<./images/1_42_1.png, id=25, 675.52374pt x 241.90375pt>
+File: ./images/1_42_1.png Graphic file (type png)
+<use ./images/1_42_1.png>
+Package pdftex.def Info: ./images/1_42_1.png  used on input line 66.
+(pdftex.def)             Requested size: 345.0pt x 123.54645pt.
+<./images/1_42_2.png, id=26, 675.52374pt x 241.90375pt>
+File: ./images/1_42_2.png Graphic file (type png)
+<use ./images/1_42_2.png>
+Package pdftex.def Info: ./images/1_42_2.png  used on input line 70.
+(pdftex.def)             Requested size: 345.0pt x 123.54645pt.
+<./images/1_42_3.png, id=27, 710.655pt x 647.41875pt>
+File: ./images/1_42_3.png Graphic file (type png)
+<use ./images/1_42_3.png>
+Package pdftex.def Info: ./images/1_42_3.png  used on input line 73.
+(pdftex.def)             Requested size: 345.0pt x 314.30396pt.
+ [4 <./images/1_41_2.png> <./images/1_42_1.png> <./images/1_42_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-<./images/2_mnist.png, id=38, 161.60374pt x 221.82875pt>
-File: ./images/2_mnist.png Graphic file (type png)
-<use ./images/2_mnist.png>
-Package pdftex.def Info: ./images/2_mnist.png  used on input line 92.
-(pdftex.def)             Requested size: 120.45044pt x 165.33876pt.
-[7 <./images/2_NS_1000.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<./images/2_mnist_plot.png, id=46, 481.8pt x 494.84875pt>
-File: ./images/2_mnist_plot.png Graphic file (type png)
-<use ./images/2_mnist_plot.png>
-Package pdftex.def Info: ./images/2_mnist_plot.png  used on input line 97.
-(pdftex.def)             Requested size: 281.05103pt x 288.66609pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+<./images/1_52_1.png, id=34, 707.64375pt x 121.45375pt>
+File: ./images/1_52_1.png Graphic file (type png)
+<use ./images/1_52_1.png>
+Package pdftex.def Info: ./images/1_52_1.png  used on input line 86.
+(pdftex.def)             Requested size: 345.0pt x 59.21262pt.
+[5 <./images/1_42_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[8 <./images/2_mnist.png> <./images/2_mnist_plot.png>] [9] (./MemoriaSVM.aux
+<./images/1_52_2.png, id=40, 707.64375pt x 121.45375pt>
+File: ./images/1_52_2.png Graphic file (type png)
+<use ./images/1_52_2.png>
+Package pdftex.def Info: ./images/1_52_2.png  used on input line 91.
+(pdftex.def)             Requested size: 345.0pt x 59.21262pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<./images/1_tablas.png, id=41, 697.60625pt x 1185.42876pt>
+File: ./images/1_tablas.png Graphic file (type png)
+<use ./images/1_tablas.png>
+Package pdftex.def Info: ./images/1_tablas.png  used on input line 101.
+(pdftex.def)             Requested size: 331.23871pt x 562.86745pt.
+[6 <./images/1_52_1.png> <./images/1_52_2.png>] [7 <./images/1_tablas.png>]
+<./images/1_graficas.png, id=52, 1932.21875pt x 1016.79875pt>
+File: ./images/1_graficas.png Graphic file (type png)
+<use ./images/1_graficas.png>
+Package pdftex.def Info: ./images/1_graficas.png  used on input line 104.
+(pdftex.def)             Requested size: 572.21085pt x 301.1261pt.
+
+[8
+
+ <./images/1_graficas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[9
+
+] (./MemoriaMXG.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -491,26 +502,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4564 strings out of 492167
- 61638 string characters out of 6131557
- 146628 words of memory out of 5000000
- 8826 multiletter control sequences out of 15000+600000
- 19587 words of font info for 57 fonts, out of 8000000 for 9000
+ 4581 strings out of 492167
+ 61705 string characters out of 6131557
+ 148787 words of memory out of 5000000
+ 8839 multiletter control sequences out of 15000+600000
+ 20363 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,45p,818b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,45p,1108b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1
-000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
-fti1000.pfb>
-Output written on MemoriaSVM.pdf (9 pages, 400521 bytes).
+000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist
+/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
+frm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on MemoriaMXG.pdf (9 pages, 480676 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
