@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  4 JAN 2020 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.10)  5 JAN 2020 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,11 +472,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<./images/2_mnist_plot.png, id=46, 481.8pt x 494.84875pt>
+<./images/2_mnist_plot.png, id=46, 481.8pt x 514.92375pt>
 File: ./images/2_mnist_plot.png Graphic file (type png)
 <use ./images/2_mnist_plot.png>
 Package pdftex.def Info: ./images/2_mnist_plot.png  used on input line 97.
-(pdftex.def)             Requested size: 281.05103pt x 288.66609pt.
+(pdftex.def)             Requested size: 281.05103pt x 300.37668pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
@@ -497,7 +497,7 @@ Here is how much of TeX's memory you used:
  8826 multiletter control sequences out of 15000+600000
  19587 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,45p,818b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,45p,1093b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
@@ -507,7 +507,7 @@ hare/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 fti1000.pfb>
-Output written on MemoriaSVM.pdf (9 pages, 400521 bytes).
+Output written on MemoriaSVM.pdf (9 pages, 399621 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
